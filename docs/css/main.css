@@ -836,21 +836,21 @@ input::placeholder {
     .nav__toggle {
       display: none; } }
 
-.nav-link,
-.nav-link:visited {
+.nav__link,
+.nav__link:visited {
   text-decoration: none;
   text-align: center;
   display: inline-block;
   padding: 0.75rem 0.75rem;
   font-weight: 600;
   color: var(--font-color); }
-  .nav-link:hover, .nav-link:active,
-  .nav-link:visited:hover,
-  .nav-link:visited:active {
+  .nav__link:hover, .nav__link:active,
+  .nav__link:visited:hover,
+  .nav__link:visited:active {
     color: var(--theme-color); }
   @media (min-width: 48rem) {
-    .nav-link,
-    .nav-link:visited {
+    .nav__link,
+    .nav__link:visited {
       padding: 0 0.75rem;
       margin: 0 0.5rem;
       color: var(--font-color); } }
