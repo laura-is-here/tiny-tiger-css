@@ -570,7 +570,8 @@ pre {
   font-size: 1rem;
   background-color: #cbc9cf;
   color: var(--font-color-muted);
-  padding: 0.75rem; }
+  padding: 0.75rem;
+  white-space: pre-wrap; }
   pre code {
     line-height: 1.15; }
 
