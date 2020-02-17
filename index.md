@@ -1,6 +1,6 @@
 ---
 title: Tiny Tiger CSS | A Mini CSS Library
-layout: "base.njk"
+layout: "home.njk"
 ---
 
 # Tiny Tiger CSS 😼
