@@ -1,0 +1,46 @@
+.bg-main {
+  background-color: var(--theme-color);
+
+  .anchor--button {
+    &:hover,
+    &:active {
+      background-color: var(--accent-color);
+    }
+  }
+}
+
+.bg-dark {
+  background-color: var(--font-color);
+
+  * {
+    --background-color: hsla(var(--main-hue), 5%, 10%, 100%);
+    --font-color: hsla(var(--main-hue), 2%, 92%, 100%);
+    --background-color-muted: hsla(var(--main-hue), 10%, 35%, 100%);
+    --font-color-muted: hsla(var(--main-hue), 2%, 67%, 100%);
+  }
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+  color: var(--font-color);
+}
+
+.bg-main-muted {
+  background-color: var(--theme-color-muted);
+}
+
+.color-main {
+  color: var(--theme-color);
+}
+
+.color-accent {
+  color: var(--accent-color);
+}
+
+.color-light {
+  color: var(--background-color);
+}
+
+.font-color-muted {
+  color: var(--font-color-muted);
+}

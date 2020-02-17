@@ -1,0 +1,30 @@
+.container {
+  margin: 1.5rem 4%;
+  --grid-item-size: 80vw;
+
+  @media #{$mq-medium} {
+    margin: 1.5rem 8%;
+    --grid-item-size: 30vw;
+  }
+
+  @media #{$mq-large} {
+    margin: 1.5rem 16%;
+    --grid-item-size: 25vw;
+  }
+
+  @media #{$mq-xlarge} {
+    margin: 1.5rem 20%;
+  }
+}
+
+.container--small {
+  margin: 1.5rem 4%;
+
+  @media #{$mq-large} {
+    margin: 1.5rem 8%;
+  }
+
+  @media #{$mq-xlarge} {
+    margin: 1.5rem 10%;
+  }
+}

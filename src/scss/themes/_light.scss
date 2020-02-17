@@ -1,0 +1,18 @@
+:root {
+  // Lavender: HSV (h, s, v): (240°, 8%, 98%)
+  --blue-hue: 260;
+  --pink-hue: 320;
+  --orange-hue: 360;
+  --yellow-hue: 35;
+  --green-hue: 145;
+  --main-hue: var(--blue-hue);
+  --accent-hue: calc(var(--main-hue) + 40);
+  --theme-color: hsla(var(--main-hue), 88%, 74%, 100%);
+  --theme-color-muted: hsla(var(--main-hue), 8%, 88%, 100%);
+  --accent-color: hsla(var(--accent-hue), 60%, 80%, 100%);
+  --accent-color-muted: hsla(var(--accent-hue), 60%, 60%, 100%);
+  --background-color: hsla(var(--main-hue), 2%, 92%, 100%);
+  --background-color-muted: hsla(var(--main-hue), 2%, 67%, 100%);
+  --font-color: hsla(var(--main-hue), 5%, 10%, 100%);
+  --font-color-muted: hsla(var(--main-hue), 10%, 35%, 100%);
+}

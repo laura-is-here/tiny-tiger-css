@@ -1,0 +1,45 @@
+/* -------------------------------------- $LINKS */
+
+a {
+  color: var(--font-color);
+
+  &:visited {
+    color: var(--font-color-muted);
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--theme-color);
+  }
+}
+
+.header-link {
+  display: block;
+  color: var(--font-color);
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: var(--theme-color);
+  }
+}
+
+.no-style-link {
+  text-decoration: none;
+  border: none;
+  &:link,
+  &:visited {
+    display: unset;
+    color: inherit;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    border: none;
+    --theme-color: transparent;
+  }
+}

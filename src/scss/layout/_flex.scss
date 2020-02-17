@@ -1,0 +1,38 @@
+.flex-container {
+  display: flex;
+  flex-flow: column nowrap;
+
+  @media #{$mq-medium} {
+    flex-flow: row wrap;
+  }
+}
+
+.flex-column--center {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-item--sm {
+  @media #{$mq-medium} {
+    flex: 1 1 25%;
+  }
+}
+
+.flex-item--lg {
+  @media #{$mq-medium} {
+    flex: 1 1 50%;
+  }
+}
+
+.flex-item--center {
+  justify-content: center;
+  justify-self: flex-end;
+  align-self: center;
+}
