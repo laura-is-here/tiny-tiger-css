@@ -1,6 +1,7 @@
 module.exports = {
   dir: {
     input: "src",
-    includes: "layouts"
+    includes: "layouts",
+    output: "docs"
   }
 };
