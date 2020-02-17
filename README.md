@@ -24,7 +24,7 @@ To use in production, use the generated file in `dist/css/main.min.css`
 
 Or incorporate the files in `src/scss` into your own asset pipeline.
 
-## Acknowledgements
+## Acknowledgements 😻
 
 - Inspired by [Tania Rascia's Primitive CSS](https://taniarascia.github.io/primitive)
 - Includes [normalize.css](https://necolas.github.io/normalize.css/)
