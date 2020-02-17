@@ -7,7 +7,7 @@ layout: "base.njk"
 
 > A work-in-progress SCSS library for bootstrapping projects.
 
-[View the Demo](https://github.io/laura-is-here/tiny-tiger-css/test/)
+[View the Demo](https://laura-is-here.github.io/tiny-tiger-css/test/)
 
 ## Getting Started 😸
 
