@@ -26,14 +26,17 @@ To use in production, use the generated file in `dist/css/main.min.css`
 
 Or incorporate the files in `src/scss` into your own asset pipeline.
 
-## Acknowledgements
+## Acknowledgements 😻
 
 - Inspired by [Tania Rascia's Primitive CSS](https://taniarascia.github.io/primitive)
 - Includes [normalize.css](https://necolas.github.io/normalize.css/)
+- SCSS directory structure from [Sass Guidelines](https://sass-guidelin.es/)
 
 ---
 
-## TODO
+## TODO 🙀
 
 - Clean up SCSS variable/CSS custom property use
 - Add mixins to streamline utilities
+- Add comments and documentation
+- Integrate PostCSS/Autoprefixer
