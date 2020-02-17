@@ -1,3 +1,8 @@
+---
+title: Tiny Tiger CSS | A Mini CSS Library
+layout: "base.njk"
+---
+
 # Tiny Tiger CSS 😼
 
 > A work-in-progress SCSS library for bootstrapping projects.
