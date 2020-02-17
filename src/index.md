@@ -5,7 +5,7 @@ layout: "base.njk"
 
 # Tiny Tiger CSS 😼
 
-> A work-in-progress SCSS library for bootstrapping projects.
+> A work-in-progress CSS library for bootstrapping projects.
 
 [View the Demo](https://laura-is-here.github.io/tiny-tiger-css/test/)
 
