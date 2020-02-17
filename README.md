@@ -28,6 +28,7 @@ Or incorporate the files in `src/scss` into your own asset pipeline.
 
 - Inspired by [Tania Rascia's Primitive CSS](https://taniarascia.github.io/primitive)
 - Includes [normalize.css](https://necolas.github.io/normalize.css/)
+- SCSS directory structure from [Sass Guidelines](https://sass-guidelin.es/)
 
 ---
 
@@ -35,3 +36,5 @@ Or incorporate the files in `src/scss` into your own asset pipeline.
 
 - Clean up SCSS variable/CSS custom property use
 - Add mixins to streamline utilities
+- Add comments and documentation
+- Integrate PostCSS/Autoprefixer
