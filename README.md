@@ -2,6 +2,8 @@
 
 > A work-in-progress SCSS library for bootstrapping projects.
 
+[View the Demo](/dist/)
+
 ## Getting Started 😸
 
 Clone the repository or download and extract the files then `cd` intor the new directory.
