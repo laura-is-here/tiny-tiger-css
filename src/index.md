@@ -13,7 +13,7 @@ layout: "base.njk"
 
 ### Using in a project
 
-1. [Download the minified CSS file](https://github.com/laura-is-here/tiny-tiger-css/dist/css/main.min.css)
+1. [Download the minified CSS file](https://github.com/laura-is-here/tiny-tiger-css/blob/master/dist/css/main.min.css)
 
 2. Paste the following into the `<head>` of your HTML file:
 
