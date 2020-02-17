@@ -32,7 +32,7 @@ Or incorporate the files in `src/scss` into your own asset pipeline.
 
 ---
 
-## TODO
+## TODO 🙀
 
 - Clean up SCSS variable/CSS custom property use
 - Add mixins to streamline utilities
